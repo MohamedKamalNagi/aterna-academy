@@ -37,6 +37,7 @@
     mobileMenu.classList.add('open');
     document.body.style.overflow = 'hidden';
   });
+  mobileMenu.querySelector('.mobile-close').style.zIndex = '999';
 
   mobileMenu.querySelector('.mobile-close').addEventListener('click', closeMobileMenu);
 
