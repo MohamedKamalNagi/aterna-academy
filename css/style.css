@@ -859,5 +859,35 @@ body {
 ::-webkit-scrollbar-track { background: var(--navy-deep); }
 ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 2px; }
 
+/* ─── CONTACT ───────────────────────────────────────────────────────── */
+.contact-grid { margin-top: 64px; }
+.contact-info { display: flex; flex-direction: column; gap: 32px; }
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.contact-icon {
+  font-size: 1.4rem;
+  color: var(--gold);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.contact-item strong {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--navy-muted);
+  margin-bottom: 6px;
+}
+.contact-item a, .contact-item span {
+  font-size: 1.1rem;
+  color: var(--navy);
+  text-decoration: none;
+  font-family: var(--display);
+}
+.contact-item a:hover { color: var(--gold); }
 /* ─── SELECTION ─────────────────────────────────────────────────────── */
 ::selection { background: rgba(184,150,46,0.25); color: var(--ivory); }
