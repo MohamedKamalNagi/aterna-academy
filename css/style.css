@@ -173,7 +173,7 @@ body {
   gap: 12px;
   text-decoration: none;
 }
-.logo-mark { width: 32px; height: 38px; }
+.logo-mark { width: 24px; height: 28px; }
 @media (max-width: 768px) {
   .nav-inner { padding: 0 16px; }
   .logo-text { display: none; }
