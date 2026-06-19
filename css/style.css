@@ -830,6 +830,8 @@ body {
 }
 
 @media (max-width: 768px) {
+  .logo-text { font-size: 0.75rem; letter-spacing: 0.1em; }
+  .hero-sub { max-width: 100%; }
   :root { --section-pad: 72px; }
   .container { padding: 0 24px; }
   .nav-links { display: none; }
