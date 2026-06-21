@@ -340,6 +340,7 @@ body {
   gap: 40px;
   opacity: 0;
   animation: fadeUp 0.9s ease 1s forwards;
+  padding-bottom: 80px;
 }
 .stat { display: flex; flex-direction: column; gap: 4px; }
 .stat-num {
