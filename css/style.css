@@ -836,7 +836,8 @@ body {
   :root { --section-pad: 72px; }
   .container { padding: 0 24px; }
   .nav-links { display: none; }
-  .hamburger { display: none !important; }
+  .hamburger { display: none; }
+  .hamburger { display: flex; }
   .tracks-grid  { grid-template-columns: 1fr; gap: 2px; }
   .services-grid { grid-template-columns: 1fr; }
   .swot-grid    { grid-template-columns: 1fr; }
